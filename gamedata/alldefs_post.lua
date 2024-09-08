@@ -224,7 +224,7 @@ function UnitDef_Post(name, uDef)
 				armscab = true,
 				corfmd = true,
 				corsilo = true,
-				legsilo =  true,
+				--legsilo =  true,
 				cormabm = true,
 				armamd_scav = true,
 				armsilo_scav = true,
@@ -315,7 +315,7 @@ function UnitDef_Post(name, uDef)
 			local TacNukes = {
 				armemp = true,
 				cortron = true,
-				legperdition = true,
+				--legperdition = true,
 				armemp_scav = true,
 				cortron_scav = true,
 			}
@@ -331,14 +331,14 @@ function UnitDef_Post(name, uDef)
 				armvulc = true,
 				corint = true,
 				corbuzz = true,
-				leglrpc = true,
-				legstarfall = true,
+				--leglrpc = true,
+				--legstarfall = true,
 				armbotrail_scav = true,
 				armbrtha_scav = true,
 				armvulc_scav = true,
 				corint_scav = true,
 				corbuzz_scav = true,
-				legstarfall_scav = true,
+				--legstarfall_scav = true,
 			}
 			if LRPCs[name] then
 				uDef.maxthisunit = 0
@@ -349,10 +349,10 @@ function UnitDef_Post(name, uDef)
 			local LRPCs = {
 				armvulc = true,
 				corbuzz = true,
-				legstarfall = true,
+				--legstarfall = true,
 				armvulc_scav = true,
 				corbuzz_scav = true,
-				legstarfall_scav = true,
+				--legstarfall_scav = true,
 			}
 			if LRPCs[name] then
 				uDef.maxthisunit = 0
@@ -485,7 +485,7 @@ function UnitDef_Post(name, uDef)
 			uDef.buildoptions[numBuildoptions + 2] = "armnanotc2plat"
 		elseif name == "armaca" or name == "armack" or name == "armacv" then
 			local numBuildoptions = #uDef.buildoptions
-			uDef.buildoptions[numBuildoptions + 1] = "armapt3"
+			--uDef.buildoptions[numBuildoptions + 1] = "armapt3"
 			uDef.buildoptions[numBuildoptions + 2] = "armminivulc"
 			uDef.buildoptions[numBuildoptions + 3] = "armwint2"
 			uDef.buildoptions[numBuildoptions + 5] = "armbotrail"
@@ -494,7 +494,7 @@ function UnitDef_Post(name, uDef)
 			uDef.buildoptions[numBuildoptions + 8] = "armlwall"
 		elseif name == "coraca" or name == "corack" or name == "coracv" then
 			local numBuildoptions = #uDef.buildoptions
-			uDef.buildoptions[numBuildoptions + 1] = "corapt3"
+			--uDef.buildoptions[numBuildoptions + 1] = "corapt3"
 			uDef.buildoptions[numBuildoptions + 2] = "corminibuzz"
 			uDef.buildoptions[numBuildoptions + 3] = "corwint2"
 			uDef.buildoptions[numBuildoptions + 4] = "corhllllt"

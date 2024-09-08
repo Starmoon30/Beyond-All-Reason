@@ -36,7 +36,7 @@
 			"armada": [ "armbrtha",  "armvulc"], //"armmercury", "armamd", "armemp", "armsilo"
 			"cortex": [ "corint",  "corbuzz" ] //"corscreamer", "corfmd", "cortron", "corsilo"
 		},
-		"weight":     [    0.5,      0.1  ],
+		"weight":     [    0,      0  ],
 
 		"condition": [40, 600]  // [<Minimum income>, <maximum seconds to build>]
 	},
@@ -102,7 +102,6 @@
 					//{"unit": "armpb", "category": "defence", "offset": [200, 0], "condition": {"chance": 0.5}},
 					{"unit": "armferret", "category": "defence", "offset": [-80, 80], "condition": {"air": true}},
 					{"unit": "armnanotc", "category": "defence", "offset": {"front": 100}},
-					{"unit": "armsilo", "category": "defence", "offset": [200, 0], "condition": {"chance": 0.2}}
 				]
 			]
 		},
@@ -142,7 +141,6 @@
 				[  
                     {"unit": "cornanotc", "category": "defence", "offset": {"front": 100}},	
                     {"unit": "cormadsam", "category": "defence", "offset": [-80, 80], "condition": {"air": true}},
-					{"unit": "corsilo", "category": "defence", "offset": [200, 0], "condition": {"chance": 0.2}}
 				]
 			]
 		},
@@ -309,7 +307,7 @@
 				[
 					{"unit": "armjamt", "category": "defence", "offset": [-60, 0], "priority": "low"},
 					{"unit": "armarad", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.4}, "priority": "low"}, 
-					{"unit": "armbrtha", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.3}, "priority": "low"}
+					//{"unit": "armbrtha", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.3}, "priority": "low"}
 				]
 			]
 		},
@@ -326,7 +324,7 @@
 				[
 					{"unit": "corjamt", "category": "defence", "offset": [-60, 0], "priority": "low"},
 					{"unit": "corarad", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.4}, "priority": "low"}, 
-					{"unit": "corint", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.4}, "priority": "low"} 
+					//{"unit": "corint", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.4}, "priority": "low"} 
 				]
 		]
 		},
@@ -342,11 +340,11 @@
 				[{"unit": "armkraken", "category": "factory", "offset": [100, 50], "condition": {"chance":1.0}, "priority": "normal"}],
 				[{"unit": "armatl", "category": "factory", "offset": [100, 50], "condition": {"chance":1.0}, "priority": "normal"}],
 				[{"unit": "armfrt", "category": "factory", "offset": [100, 50], "condition": {"chance":1.0}, "priority": "normal"}],
-				[{"unit": "armbrtha", "category": "defence", "offset": [-100, 0], "condition": {"chance":1.0}, "priority": "low"}],
+				//[{"unit": "armbrtha", "category": "defence", "offset": [-100, 0], "condition": {"chance":1.0}, "priority": "low"}],
 				[{"unit": "armanni", "category": "defence", "offset": [-100, 0], "condition": {"chance":1.0}, "priority": "low"}],
 
 				[
-					{"unit": "armamd", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.5}, "priority": "low"},
+					//{"unit": "armamd", "category": "defence", "offset": [-100, 0], "condition": {"chance":0.5}, "priority": "low"},
 					{"unit": "armjamt", "category": "defence", "offset": [-100, 0], "condition": {"chance":1.0}, "priority": "low"}
 				]
 			]
@@ -362,10 +360,10 @@
 
 				[{"unit": "corpun", "category": "factory", "offset": [100, 50], "condition": {"chance":1.0}, "priority": "normal"}],
 				[{"unit": "cortoast", "category": "factory", "offset": [100, 0], "condition": {"chance":1.0}, "priority": "normal"}],
-				[{"unit": "corint", "category": "defence", "offset": [-100, 100], "condition": {"chance":1.0}, "priority": "low"}],
+				//[{"unit": "corint", "category": "defence", "offset": [-100, 100], "condition": {"chance":1.0}, "priority": "low"}],
 
 				[
-					{"unit": "corfmd", "category": "defence", "offset": [-100, 100], "condition": {"chance":0.5}, "priority": "low"},
+					//{"unit": "corfmd", "category": "defence", "offset": [-100, 100], "condition": {"chance":0.5}, "priority": "low"},
 					{"unit": "corjamt", "category": "defence", "offset": [-100, 100], "condition": {"chance":1.0}, "priority": "low"}
 				],
 
